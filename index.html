@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='main.css'>
+    <!-- External Script -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class='row'>
+        <h1>Title</h1>
+    </div>
+    <div class='row'>
+        <div class='col-lg-8' id = 'sharedGrid'>
+
+        </div>
+        <div class='col-lg-4'>
+            <table id = "table">
+
+                <!-- <tr>table</tr>
+                <tr>
+                    <td>Solar</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Wind</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr> -->
+
+            </table>
+            <div>
+                <div>
+                    <button onclick = "showPie()" >Pie</button>
+                    <button onclick = "showBar()" >Bar</button>
+                </div>
+                <div id='pieGrid'></div>
+                <div id='barGrid' style = 'display: none;'></div>
+            </div>
+            
+
+            </div>
+        </div>
+    </div>
+    
+
+    <script src='main.js'></script>
+
+    <!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+</body>
+<!-- <script src="https://code.highcharts.com/highcharts.js"></script> -->
+
+<!-- <div id="sharedGrid"></div> -->
+
+</html>
