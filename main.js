@@ -144,7 +144,7 @@ let sharedConfig = [
         xAxis: {
             crosshair: true,
             labels: {
-                format: '{value} CHANGE LABEL'
+                format: '{value}'
             }
         },
         yAxis: {
@@ -197,7 +197,7 @@ let sharedConfig = [
                 setExtremes: 100
             },
             labels: {
-                format: '{value} CHANGE LABEL'
+                format: '{value}'
             }
         },
         yAxis: {
@@ -249,7 +249,7 @@ let sharedConfig = [
                 setExtremes: 100
             },
             labels: {
-                format: '{value} CHANGE LABEL'
+                format: '{value}'
             }
         },
         yAxis: {
